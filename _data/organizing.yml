@@ -1,0 +1,58 @@
+- name: General Chairs
+  members:
+    - name: Briane Paul V. Samson
+      affiliation: Future University Hakodate & De La Salle University
+    - name: Suleman Shahid
+      affiliation: Lahore University of Management Sciences
+    - name: Akihiro Matsufuji
+      affiliation: Tokyo Metropolitan University
+- name: Program Chairs
+  members:
+    - name: Keyur Sorathia
+      affiliation: Indian Institute of Technology Guwahati
+    - name: Masitah Ghazali
+      affiliation: Universiti Teknologi Malaysia
+- name: Operations Chairs
+  members:
+    - name: Masitah Ghazali
+      affiliation: Universiti Teknologi Malaysia
+    - name: Chat Wacharamanotham
+      affiliation: University of Zurich
+- name: Reviewing Chairs
+  members:
+    - name: Chat Wacharamanotham
+      affiliation: University of Zurich
+    - name: Toni-Jan Keith Monserrat
+      affiliation: University of the Philippines Los Baños
+- name: Submission & Data Chairs
+  members:
+    - name: Toni-Jan Keith Monserrat
+      affiliation: University of the Philippines Los Baños
+    - name: Shio Miyafuji
+      affiliation: Tokyo Institute of Technology
+- name: Shepherding Chairs
+  members:
+    - name: Nova Ahmed
+      affiliation: North South University
+    - name: Shio Miyafuji
+      affiliation: Tokyo Institute of Technology
+    - name: A. B. M. Alim Al Islam (Razi)
+      affiliation: Bangladesh University of Engineering and Technology
+- name: Web and Social Media Chair
+  members:
+    - name: Briane Paul V. Samson
+      affiliation: Future University Hakodate & De La Salle University
+- name: Publication Chair
+  members:
+    - name: Toni-Jan Keith Monserrat
+      affiliation: University of the Philippines Los Baños
+- name: Liaison with IPSJ
+  members:
+    - name: Kazuyuki Fujita
+      affiliation: Tohoku University
+- name: Institutional Knowledge Mentors
+  members:
+    - name: Eunice Sari
+      affiliation: UX Indonesia
+    - name: Adi Tedjasaputra
+      affiliation: UX Indonesia

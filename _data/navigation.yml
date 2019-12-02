@@ -1,0 +1,10 @@
+- name: Home
+  link: /
+- name: Call for Papers
+  link: /call/
+- name: Program
+  link: /program/
+- name: Organizing
+  link: /organizing/
+- name: Past Symposia
+  link: https://asian-chi.github.io
