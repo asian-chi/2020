@@ -18,8 +18,8 @@ author: Asian CHI Symposium
 description: >- # this means to ignore newlines until "baseurl:"
   The Asian CHI Symposium showcases the latest work from Asia on interactive systems and user interfaces that address under-explored problems and showcase unique approaches.
 tagline: Showcasing of Asian ingenuity in addressing endemic challenges in human-computer interaction research.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://asian-chi.github.io/2020" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/2020" # the subpath of your site, e.g. /blog
+url: "https://asian-chi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
 
 # Social settings
