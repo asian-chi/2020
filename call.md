@@ -6,7 +6,7 @@ permalink: /call/
 
 <div class="abstract">
     <p class="abstract-overview">
-        The Asian CHI Symposium invites latest HCI research papers from Asia and those focusing on incorporating Asian sociocultural factors in their design and implementation. This symposium aims to showcase works originated from each Asian country or closely related to the Asian culture and society, and promote its unique problems and approaches to the global community. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI). This symposium is also intended to foster a network of young researchers like masters students, and more specifically, senior doctoral candidates and those who recently graduated.
+        The Asian CHI Symposium invites latest HCI research papers <em>from Asia</em> and those focusing on <em>incorporating Asian sociocultural factors in their design and implementation</em>. This symposium aims to showcase works originated from each Asian country or closely related to the Asian culture and society, and promote its unique problems and approaches to the global community. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI). This symposium is also intended to foster a network of young researchers like masters students, and more specifically, senior doctoral candidates and those who recently graduated. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI)
     </p>
     <h2>Submission</h2>
     <div class="abstract-overview">
@@ -19,11 +19,12 @@ permalink: /call/
         <p>
             <span class="about-highlight">Showcase</span> are works that will be presented at other CHI 2020 tracks. They could be presented at the symposium to broaden the dissemination of high quality published research and to inspire applications, replications, continuation, spin-offs and collaboration.
         </p>
+        <p>All types of submissions are not anonymized and must be uploaded through PCS 2.0 <em>(link to follow)</em>.</p>
     </div>
     <h2>Themes</h2>
     <div class="abstract-overview">
         <p>
-            Example research topics includes:
+            Submissions can be on any of the following research themes and/or contributions:
         </p>
         <ul>
             <li>Novel interactive systems and interaction techniques;</li>
@@ -40,7 +41,7 @@ permalink: /call/
     </p>
     <h2>Paper Review & Selection</h2>
     <p class="abstract-overview">
-        Each original submission will receive anonymized review from at least two experts. They will review submissions under the following criteria: originality; significance; and validity. The submissions under the showcase category will be curated by the reviewing chairs. We will take into account the following factors: the number of novel work that is accepted; the geographical diversity of the attendees; and the diversity of research topics.
+        Each original submission will receive two anonymized reviews under the following criteria: originality; significance; and validity. The submissions under the showcase category will be curated by taking into account the following factors: the number of the accepted original submissions; the geographical diversity of the attendees; and the diversity of research topics.
     </p>
     <h2>Conference Registration</h2>
     <p class="abstract-overview">
