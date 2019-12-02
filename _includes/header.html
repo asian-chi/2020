@@ -22,7 +22,11 @@
 
         <div class="trigger">
           {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url == item.link %} class="current-page" {% else %} class="page-link" {% endif %}>{{ item.name }}</a>
+            {% if item.name != "Past Symposia" %}
+              <a href="{{ item.link | relative_url }}" {% if page.url == item.link %} class="current-page" {% else %} class="page-link" {% endif %}>{{ item.name }}</a>
+            {% else %}
+              <a href="{{ item.link }}" {% if page.url == item.link %} class="current-page" {% else %} class="page-link" {% endif %}>{{ item.name }}</a>
+            {% endif %}
           {% endfor %}
         </div>
       </nav>
