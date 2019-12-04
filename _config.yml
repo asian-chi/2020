@@ -17,7 +17,7 @@ title: Asian CHI Symposium 2020
 author: Asian CHI Symposium
 description: >- # this means to ignore newlines until "baseurl:"
   The Asian CHI Symposium showcases the latest work from Asia on interactive systems and user interfaces that address under-explored problems and showcase unique approaches.
-tagline: Showcasing of Asian ingenuity in addressing endemic challenges in human-computer interaction research.
+tagline: Showcasing Asian ingenuity in addressing local challenges in human-computer interaction research.
 baseurl: "/2020" # the subpath of your site, e.g. /blog
 url: "https://asian-chi.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: pretty
