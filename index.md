@@ -13,7 +13,7 @@ layout: main
         The Asian CHI Symposium showcases the latest HCI work from <span class="about-highlight">Asia, the Asian diaspora and those focusing on incorporating Asian sociocultural factors in their design and implementation</span>. Aside from circulating ideas, identifying emerging research problems and envisioning future directions in human-computer interaction research, this symposium aims to foster social ties among academics (researchers and students) and practitioners and continuously grow a research community in Asia.
     </p>
     <p class="abstract-overview">
-        At <a href="https://chi2020.acm.org" target="_blank">CHI 2020</a>, we plan to continue the successes of the 2019 edition by bringing together more research leaders from Asia and the Asian daspora. Specifically, we encourage participation from other the underrepresented regions of Middle East and South Asia.
+        At <a href="https://chi2020.acm.org" target="_blank">CHI 2020</a>, we plan to continue the successes of the 2019 edition by bringing together more research leaders from Asia and the Asian daspora. Specifically, we encourage participation from the other underrepresented regions of Middle East and South Asia.
     </p>
     <h4>Keynote Speakers</h4>
     {% if site.data.keynote.size > 0 %}
