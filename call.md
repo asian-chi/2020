@@ -105,4 +105,13 @@ permalink: /call/
         <li>Online Submission: PCS 2.0 Submission <em>(link to follow)</em></li>
         <li>Template: <a href="https://chi2020.acm.org/authors/chi-proceedings-format/" target="_blank">CHI 2020 Proceedings Format</a></li>
     </ul>
+    <h4>Review Timeline</h4>
+    <ul class="sidebar-items">
+        {% for item in site.data.review_timeline %}
+            <li>
+                <p class="news-text">{{ item.text }}:</p>
+                <p class="news-date">{{ item.date }}{% if item.time %} at <a href="{{ item.timezone }}" target="_blank">{{ item.time }}</a> {% endif %}</p>
+            </li>
+        {% endfor %}
+    </ul>
 </div>
