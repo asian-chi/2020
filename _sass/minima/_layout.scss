@@ -52,7 +52,7 @@
 
 .site-title {
   @include relative-font-size(2.25);
-  color: darken($asia-blue-color-dark, 35%);
+  color: $asia-title-color;
   font-weight: 500;
   letter-spacing: 1px;
   line-height: $base-line-height * 0.8;

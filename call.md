@@ -60,7 +60,7 @@ permalink: /call/
             For showcase submissions, their entry in the front matter of the proceedings of the symposium will contain only the title and author names with a pointer to the corresponding entry in the CHI 2020 Proceedings or Extended Abstract Proceedings.
         </p>
         <p>
-            <span class="about-highlight">Both the original and showcase</span> submissions should include key references to publicly accessible resources. Both types of submissions should not be anonymized and must be uploaded through PCS 2.0 <em>(link to follow)</em>. 
+            <span class="about-highlight">Both the original and showcase</span> submissions should include key references to publicly accessible resources. Both types of submissions should not be anonymized and must be uploaded through HotCRP <em>(link to follow)</em>. 
         </p>
         <p>
             Authors may also submit a draft of their poster as supplementary material. They may start following the symposium’s <a href="../poster-guide/" target="_blank">poster guidelines</a>.
@@ -102,7 +102,7 @@ permalink: /call/
     </ul>
     <h4>Submission Details</h4>
     <ul class="sidebar-items">
-        <li>Online Submission: PCS 2.0 Submission <em>(link to follow)</em></li>
+        <li>Online Submission: HotCRP <em>(link to follow)</em></li>
         <li>Template: <a href="https://chi2020.acm.org/authors/chi-proceedings-format/" target="_blank">CHI 2020 Proceedings Format</a></li>
     </ul>
     <h4>Review Timeline</h4>

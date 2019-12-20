@@ -4,7 +4,7 @@
     <div class="site-titles">
       <div class="site-logo-name">
         <a class="site-title" href="{{ "/" | relative_url }}">Asian CHI Symposium 2020</a>
-        <p class="site-subtitle">April 25 or 26, Honolulu, Hawai'i, USA</p>
+        <p class="site-subtitle">{{ site.date | to_s }}, {{ site.venue | escape }}</p>
       </div>
       <div class="logo"></div>
     </div>
