@@ -714,3 +714,19 @@ h4.section-header {
   font-weight: 600;
   color: $asia-highlight-color;
 }
+
+.cta-btn {
+  text-decoration: none;
+  color: white;
+  background-color: $asia-title-color;
+  padding: 10px 20px;
+  font-size: $base-font-size*1.5;
+  text-transform: uppercase;
+  border-bottom: 5px solid $asia-green-color;
+  display: inline-block;
+
+  &:hover {
+    background-color: lighten($asia-title-color, 5%);
+    color: white;
+  }
+}

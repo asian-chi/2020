@@ -43,6 +43,8 @@ layout: main
             </li>
         {% endfor %}
     </ul>
+    <br>
+    <a class="cta-btn" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</a>
 </div>
 
 > Photo by <a href="https://unsplash.com/@jarvisphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Braden Jarvis</a> on <a href="https://unsplash.com">Unsplash</a>.

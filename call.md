@@ -8,6 +8,7 @@ permalink: /call/
     <p class="abstract-overview">
         The Asian CHI Symposium invites latest HCI research papers <em>from Asia</em> and those focusing on <em>incorporating Asian sociocultural factors in their design and implementation</em>. Showcasing works from Asian countries and those closely related to the Asian culture and society, the symposium promotes the region's unique problems and approaches to the global community. It also intends to foster a network of young researchers like masters students, and more specifically, senior doctoral candidates and those who recently graduated. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI).
     </p>
+    <a class="cta-btn" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</a>
     <h2>Themes</h2>
     <div class="abstract-overview">
         <p>
