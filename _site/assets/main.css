@@ -702,3 +702,14 @@ h4.section-header {
   .cta-btn:hover {
     background-color: #e52311;
     color: white; }
+
+.with-figure {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+  .with-figure .template-icon {
+    background: no-repeat center/100% url("../../2020/assets/gif/portrait.gif");
+    width: 8%;
+    height: 75px; }
+  .with-figure p {
+    width: 90%; }

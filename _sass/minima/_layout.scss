@@ -730,3 +730,19 @@ h4.section-header {
     color: white;
   }
 }
+
+.with-figure {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+
+  .template-icon {
+    background: no-repeat center/100% url("../../2020/assets/gif/portrait.gif");
+    width: 8%;
+    height: 75px;
+  }
+
+  p {
+    width: 90%;
+  }
+}

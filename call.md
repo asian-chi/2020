@@ -37,9 +37,12 @@ permalink: /call/
             <li>present preliminary results of early iterations of design, engineering, or empirical studies, or</li>
             <li>present an extension or a discussion of an alternative perspectives of previously-published work.</li>
         </ol>
-        <p>
-            Submissions must be in a maximum of four (4) pages in the <a href="https://chi2020.acm.org/authors/chi-proceedings-format/" target="_blank">CHI 2020 Papers Proceeding template</a>. Acknowledgement and references are included in this page limit. The submission language is English. Failing to comply with the template may result in a desk rejection.
-        </p>
+        <div class="with-figure">
+            <p>
+                Submissions must be in a maximum of four (4) pages in the <a href="https://chi2020.acm.org/authors/chi-proceedings-format/" target="_blank">CHI 2020 Papers Proceeding template</a>. Acknowledgement and references are included in this page limit. The submission language is English. Failing to comply with the template may result in a desk rejection.
+            </p>
+            <div class="template-icon"></div>
+        </div>
         <p>
             Original works that are accepted to present at the symposium may choose to have their camera-ready submissions to be listed in the ACM Digital Library one of the following formats:
         </p>
@@ -105,6 +108,7 @@ permalink: /call/
     <ul class="sidebar-items">
         <li>Online Submission: <a href="https://asianchi20.hotcrp.com/" target="_blank">HotCRP</a></li>
         <li>Template: <a href="https://chi2020.acm.org/authors/chi-proceedings-format/" target="_blank">CHI 2020 Papers Proceeding template</a></li>
+        <li>Contact us: <a href="mailto:asianchi2020@googlegroups.com">asianchi2020@googlegroups.com</a></li>
     </ul>
     <h4>Review Timeline</h4>
     <ul class="sidebar-items">

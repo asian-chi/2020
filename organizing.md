@@ -6,6 +6,7 @@ title: Organizing
 
 <h2 class="section-header">Organizers</h2>
 <div class="team-wrapper">
+    <p>Contact us: <a href="mailto:asianchi2020@googlegroups.com">asianchi2020@googlegroups.com</a></p>
     {% for team in site.data.organizing %}
     <h4 class="section-header">{{ team.name }}</h4>
     <div class="organizers-wrapper">
