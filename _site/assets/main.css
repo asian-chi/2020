@@ -546,6 +546,13 @@ article.post.blog {
   .news-sidebar li {
     margin-bottom: 10px;
     line-height: 1.35; }
+  .news-sidebar .round-date {
+    margin-left: 20px; }
+  .news-sidebar .round-name {
+    margin-bottom: 5px;
+    font-weight: bold; }
+    .news-sidebar .round-name:not(:first-child) {
+      margin-top: 20px; }
 
 .externals {
   margin-bottom: 20px;
@@ -713,3 +720,6 @@ h4.section-header {
     height: 75px; }
   .with-figure p {
     width: 90%; }
+
+.emphasized-note {
+  color: #a6003d; }

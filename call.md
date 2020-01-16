@@ -6,7 +6,7 @@ permalink: /call/
 
 <div class="abstract">
     <p class="abstract-overview">
-        The Asian CHI Symposium invites latest HCI research papers <em>from Asia</em> and those focusing on <em>incorporating Asian sociocultural factors in their design and implementation</em>. Showcasing works from Asian countries and those closely related to the Asian culture and society, the symposium promotes the region's unique problems and approaches to the global community. It also intends to foster a network of young researchers like masters students, and more specifically, senior doctoral candidates and those who recently graduated. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI).
+        The Asian CHI Symposium invites latest contributions from <em>Asian researchers based in Asia and abroad</em> working on HCI research for <em>any technology, domain and regional context</em>. We also welcome contributions from non-Asian researchers focused on <em>incorporating Asian sociocultural factors in their design and implementation of computing systems</em>. Showcasing works from Asian researchers and those closely related to the Asian culture and society, the symposium promotes the region's unique problems and approaches to the global community. It also intends to foster a network of young researchers like masters students, and more specifically, senior doctoral candidates and those who recently graduated. We encourage the participation of researchers and practitioners from Asian communities in all career stages (e.g., seasoned academics, early career researchers, graduate students, and even undergraduates who have strong interests in HCI).
     </p>
     <a class="cta-btn" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</a>
     <h2>Themes</h2>
@@ -90,7 +90,7 @@ permalink: /call/
     </div>
     <h2>Funding Support</h2>
     <p class="abstract-overview">
-        Student participants are encouraged to apply for the Gary Marsden Student Development Fund. The eligibility criteria could be checked on the <a href="https://sigchi.org/get-involved/community_support/gary-marsden-student-development-fund/" target="_blank">SIGCHI website</a>.
+        Student participants are encouraged to apply for the Gary Marsden Student Development Fund. The eligibility criteria could be checked on the <a href="https://sigchi.org/get-involved/community_support/gary-marsden-student-development-fund/" target="_blank">SIGCHI website</a>. If they plan to apply for this fund, they should also submit on the Early Submission deadline to get a decision before the funding application deadline.
     </p>
 </div>
 
@@ -98,10 +98,20 @@ permalink: /call/
     <h4>Important Dates</h4>
     <ul class="sidebar-items">
         {% for item in site.data.dates %}
+            {% if item.round %}
+            <p class="round-name">{{ item.round }}</p>
+            {% for date in item.dates %}
+            <li class="round-date">
+                <p class="news-text">{{ date.text }}:</p>
+                <p class="news-date">{{ date.date }}{% if date.time %} at <a href="{{ item.timezone }}" target="_blank">{{ date.time }}</a> {% endif %}</p>
+            </li>
+            {% endfor %}
+            {% else %}
             <li>
                 <p class="news-text">{{ item.text }}:</p>
                 <p class="news-date">{{ item.date }}{% if item.time %} at <a href="{{ item.timezone }}" target="_blank">{{ item.time }}</a> {% endif %}</p>
             </li>
+            {% endif %}
         {% endfor %}
     </ul>
     <h4>Submission Details</h4>

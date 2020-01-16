@@ -37,10 +37,20 @@ layout: main
     <h4>Important Dates</h4>
     <ul class="sidebar-items">
         {% for item in site.data.dates %}
+            {% if item.round %}
+            <p class="round-name">{{ item.round }}</p>
+            {% for date in item.dates %}
+            <li class="round-date">
+                <p class="news-text">{{ date.text }}:</p>
+                <p class="news-date">{{ date.date }}{% if date.time %} at <a href="{{ item.timezone }}" target="_blank">{{ date.time }}</a> {% endif %}</p>
+            </li>
+            {% endfor %}
+            {% else %}
             <li>
                 <p class="news-text">{{ item.text }}:</p>
                 <p class="news-date">{{ item.date }}{% if item.time %} at <a href="{{ item.timezone }}" target="_blank">{{ item.time }}</a> {% endif %}</p>
             </li>
+            {% endif %}
         {% endfor %}
     </ul>
     <br>

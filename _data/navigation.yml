@@ -1,7 +1,9 @@
 - name: Home
   link: /
-- name: Call for Papers
+- name: Call (EN)
   link: /call/
+- name: Call (JP)
+  link: /call-jp/
 - name: Program
   link: /program/
 - name: Organizing

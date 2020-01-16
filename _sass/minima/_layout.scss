@@ -517,6 +517,19 @@ article.post.blog {
     margin-bottom: 10px;
     line-height: $base-line-height*0.9
   }
+
+  .round-date {
+    margin-left: 20px;
+  }
+
+  .round-name {
+    margin-bottom: 5px;
+    font-weight: bold;
+
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
 }
 
 .externals {
@@ -745,4 +758,8 @@ h4.section-header {
   p {
     width: 90%;
   }
+}
+
+.emphasized-note {
+  color: $asia-highlight-color;
 }
