@@ -533,6 +533,19 @@ article.post.blog {
   .latest-symposium p {
     margin-bottom: 0px; }
 
+.copyright {
+  background: rgba(255, 250, 250, 0.5);
+  font-size: 9.8px;
+  text-align: right;
+  width: 155px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  padding: 2px; }
+  .copyright a {
+    color: white; }
+
 /**
  * Sidebar
  */
@@ -723,3 +736,19 @@ h4.section-header {
 
 .emphasized-note {
   color: #a6003d; }
+
+.program {
+  list-style-type: none; }
+  .program li {
+    margin-bottom: 10px; }
+  .program .program-note {
+    color: gray;
+    padding-left: 6.75em;
+    font-style: italic; }
+  .program .program-speaker {
+    font-weight: bold; }
+
+.group {
+  margin-top: 5px; }
+  .group li {
+    margin-bottom: 5px; }

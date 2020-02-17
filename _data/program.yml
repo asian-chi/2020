@@ -1,0 +1,45 @@
+- time: "08:30 - 09:00"
+  activity: Registration. Participants find their assigned tables.
+  note: Participants must ask for their assigned seats by approaching the SVs or any organizer.
+- time: "09:00 - 09:15"
+  activity: Opening Remarks
+- time: "09:15 - 09:45"
+  activity: Ice Breaker
+- time: "09:45 - 10:30"
+  activity: "Keynote #1:" 
+  speaker: "Shengdong \"Shen\" Zhao"
+  affiliation: "National University of Singapore"
+  link: "#shen"
+  website: http://www.shengdongzhao.com/
+- time: "10:30 - 10:45"
+  activity: Coffee break & preparation for Poster Session 1
+- time: "10:45 - 12:15"
+  activity: Poster Session 1
+  groups:
+  - time: "10:45 - 11:30"
+    activity: Group A
+  - time: "11:30 - 12:15"
+    activity: Group B
+- time: "12:15 - 13:30"
+  activity: Lunch & preparation for Poster Session 2
+- time: "13:30 - 15:00"
+  activity: Poster Session 2
+  groups:
+  - time: "13:30 - 14:15"
+    activity: Group C
+  - time: "14:15 - 15:00"
+    activity: Group D
+- time: "15:00 - 15:45"
+  activity: "Keynote #2:"
+  speaker: Gierad Laput
+  affiliation: Apple
+  link: "#gierad"
+  website: http://www.gierad.com/
+- time: "15:45 - 16:00"
+  activity: Coffee break & preparation for Poster Session 3
+- time: "16:00 - 16:45"
+  activity: Poster Session 3
+- time: "16:45 - 17:00"
+  activity: TBD
+- time: "17:00 - 17:15"
+  activity: Closing Remarks

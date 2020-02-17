@@ -500,6 +500,22 @@ article.post.blog {
   }
 }
 
+.copyright {
+  background: rgba(255, 250, 250, 0.50);
+  @include relative-font-size(.7);
+  text-align: right;
+  width: 155px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  color: white;
+  padding: 2px;
+
+  a {
+    color: white;
+  }
+}
+
 /**
  * Sidebar
  */
@@ -762,4 +778,30 @@ h4.section-header {
 
 .emphasized-note {
   color: $asia-highlight-color;
+}
+
+.program {
+  list-style-type: none;
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  .program-note {
+    color: gray;
+    padding-left: 6.75em;
+    font-style: italic;
+  }
+
+  .program-speaker {
+    font-weight: bold;
+  }
+}
+
+.group {
+  margin-top: 5px;
+
+  li {
+    margin-bottom: 5px;
+  }
 }

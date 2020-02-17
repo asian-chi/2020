@@ -5,15 +5,42 @@ permalink: /program/
 ---
 
 <div class="abstract">
-    <p class="abstract-overview">
-        We will update this page with a detailed program after the review stages.
-    </p>
     <h2>Date & Venue</h2>
     <div class="abstract-overview">
-        <ul>
+        <ul class="sidebar-items program">
             <li>Date: April 25, 2020 (Saturday)</li>
-            <li>Time: 09:00 - 17:00 <em>(Tentative)</em></li>
+            <li>Time: 09:00 - 17:00</li>
             <li>Venue: Hawai'i Convention Center, Honolulu, Hawai'i, USA</li>
         </ul>
     </div>
+    <h2>Schedule</h2>
+    {% if site.data.program.size > 0 %}
+    <ul class="sidebar-items program">
+        {% for item in site.data.program %}
+            <li>
+                <p>
+                    <span class="news-date">{{ item.time }}</span> &#187; 
+                    <span class="news-text">{{ item.activity }}</span>&nbsp;
+                    {% if item.speaker %}
+                        <a class="program-speaker" href="{{ item.website }}" target="_blank">{{ item.speaker }}</a>,
+                        {{ item.affiliation }} | <a href="{{ item.link }}">Bio & Abstract</a>
+                    {% endif %}
+                    {% if item.groups %}
+                        <ul class="sidebar-items program group">
+                            {% for group in item.groups %}
+                            <li>
+                                <p>
+                                    <span class="news-date">{{ group.time }}</span> &#187; 
+                                    <span class="news-text">{{ group.activity }}</span>
+                                </p>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </p>
+                {% if item.note %}<p class="program-note">{{ item.note }}</p>{% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </div>
