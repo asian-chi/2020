@@ -22,33 +22,14 @@
       text: Decision Notification
     - date: February 25, 2020
       text: Reviews sent to authors
-- date: TBD
-  text: Camera-ready Deadline
-
-
-
-
-# - date: January 17, 2020
-#   time: 23:59 AoE - Anywhere on Earth
-#   timezone: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Asian+CHI+Symposium+2020+-+Submission+Deadline&iso=20200117T2359&p1=3399
-#   text: Early Submission Deadline
-# - date: January 21, 2020
-#   text: Desk reject notification (Early)
-# - date: January 31, 2020
-#   time: 23:59 AoE - Anywhere on Earth
-#   timezone: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Asian+CHI+Symposium+2020+-+2nd+Round+Submission+Deadline&iso=20200131T235959&p1=3399
-#   text: 2nd Round Submission Deadline
-# - date: February 4, 2020
-#   text: Desk reject notification (2nd Round)
-# - date: February 11, 2020
-#   text: Decision Notification (Early)
-# - date: February 11, 2020
-#   text: Reviews sent to authors (Early)
-# - date: February 25, 2020
-#   text: Decision Notification (2nd Round)
-# - date: February 25, 2020
-#   text: Reviews sent to authors (2nd Round)
-# - date: TBD
-#   text: Camera-ready Deadline
-  # time: 23:59 AoE - Anywhere on Earth
-  # timezone: https://www.timeanddate.com/worldclock/fixedtime.html?msg=Asian+CHI+Symposium+2020+-+Submission+Deadline&iso=20200117T2359&p1=3399
+- round: Final versions
+  dates:
+    - date: March 27, 2020
+      time: 23:59 AoE - Anywhere on Earth
+      text: Camera-ready deadline (no shepherding)
+    - date: March 27, 2020
+      time: 23:59 AoE - Anywhere on Earth
+      text: Symposium-ready deadline (abstract only, no publication, showcase)
+    - date: April 10, 2020
+      time: 23:59 AoE - Anywhere on Earth
+      text: Camera-ready deadline (with shepherding)
