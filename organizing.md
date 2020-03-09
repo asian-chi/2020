@@ -23,3 +23,10 @@ title: Organizing
         <p><span class="amb-name">{{ amb.name }}</span>, {{ amb.affiliation }}</p>
     {% endfor %}
 </div>
+
+<h2 class="section-header">Reviewers</h2>
+<div class="ambassadors-wrapper">
+    {% for rev in site.data.reviewers %}
+        <p><span class="amb-name">{{ rev.name }}</span>, {{ rev.affiliation }}</p>
+    {% endfor %}
+</div>
