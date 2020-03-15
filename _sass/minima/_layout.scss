@@ -806,6 +806,8 @@ h4.section-header {
   }
 }
 
+// Keynote Speakers
+
 .keynote {
   margin-left: 0px;
   display: flex;
@@ -826,6 +828,38 @@ h4.section-header {
   margin-bottom: 10px;
 }
 
+// Sponsors
+
 .sponsor {
   margin-right: 20px;
+}
+
+// Accepted Submissions
+
+.accepted-submission {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.accepted-id {
+  width: 5%;
+  margin-right: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.accepted-details {
+  width: 90%;
+}
+
+.accepted-title {
+  font-weight: bold;
+  color: $asia-highlight-color;
+}
+
+.accepted-type {
+  padding: 2px 5px 2px 5px;
+  border-radius: 5%;
+  color: white;
+  background-color: $asia-green-color;
 }

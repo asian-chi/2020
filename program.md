@@ -55,4 +55,22 @@ permalink: /program/
             {% endfor %}
         </ul>
     </div>
+    <h2>Accepted Submissions</h2>
+    {% if site.data.accepted.size > 0 %}
+    <ul class="sidebar-items program">
+        {% for item in site.data.accepted %}
+            <li class="accepted-submission">
+                <div class="accepted-id">#{{ item.id }}</div>
+                <div class="accepted-details">
+                    <span class="accepted-title">{{ item.title }}</span>
+                    {% if item.type %}
+                    <span class="accepted-type">{{ item.type }}</span>
+                    {% endif %}
+                    <p class="accepted-authors">{{ item.authors }}</p>
+                    <p class="accepted-abstract">{{ item.abstract }}</p>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+    {% endif %}
 </div>
