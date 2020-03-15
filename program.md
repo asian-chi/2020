@@ -60,7 +60,7 @@ permalink: /program/
     <ul class="sidebar-items program">
         {% for item in site.data.accepted %}
             <li class="accepted-submission">
-                <div class="accepted-id">#{{ item.id }}</div>
+                <div class="accepted-id">#{{ item.num }}</div>
                 <div class="accepted-details">
                     <span class="accepted-title">{{ item.title }}</span>
                     {% if item.type %}
