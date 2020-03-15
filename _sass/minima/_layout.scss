@@ -805,3 +805,27 @@ h4.section-header {
     margin-bottom: 5px;
   }
 }
+
+.keynote {
+  margin-left: 0px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    align-content: flex-start;
+  }
+}
+
+.keynote-photo {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.sponsor {
+  margin-right: 20px;
+}

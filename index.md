@@ -23,7 +23,9 @@ layout: main
         <ul class="sidebar-items keynote">
             {% for item in site.data.keynote %}
                 <li>
-                    <a class="keynote-speaker" href="{{ item.website }}" target="_blank">{{ item.name }}</a>, {{ item.affiliation }}
+                    <img class="keynote-photo" src="{{ item.photo }}"/>
+                    <a class="keynote-speaker" href="{{ item.website }}" target="_blank">{{ item.name }}</a>
+                    {{ item.affiliation }}
                 </li>
             {% endfor %}
         </ul>
@@ -56,4 +58,11 @@ layout: main
     </ul>
     <br>
     <a class="cta-btn" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</a>
+</div>
+
+<div class="sponsors">
+    <h2>Sponsors</h2>
+    {% for item in site.data.sponsors %}
+        <img class="sponsor" src="{{ item.img }}"/>
+    {% endfor %}
 </div>

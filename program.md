@@ -43,4 +43,16 @@ permalink: /program/
         {% endfor %}
     </ul>
     {% endif %}
+    <h2>Keynote Speakers</h2>
+    <div class="abstract-overview">
+        <ul class="sidebar-items keynote">
+            {% for item in site.data.keynote %}
+                <li>
+                    <img class="keynote-photo" src="../{{ item.photo }}"/>
+                    <a class="keynote-speaker" href="{{ item.website }}" target="_blank">{{ item.name }}</a>
+                    {{ item.affiliation }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
 </div>
