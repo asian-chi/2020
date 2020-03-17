@@ -723,6 +723,12 @@ h4.section-header {
     background-color: #e52311;
     color: white; }
 
+.disabled {
+  background-color: gray; }
+  .disabled:hover {
+    background-color: #8d8d8d;
+    color: white; }
+
 .with-figure {
   display: flex;
   flex-flow: row wrap;

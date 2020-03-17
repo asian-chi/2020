@@ -60,7 +60,7 @@ layout: main
         {% endfor %}
     </ul>
     <br>
-    <a class="cta-btn" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</a>
+    <div class="cta-btn disabled" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</div>
 </div>
 
 <div class="sponsors">

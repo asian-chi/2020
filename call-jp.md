@@ -11,7 +11,7 @@ permalink: /call-jp/
     <p class="abstract-overview">
         このシンポジウムはHCIに関するさまざまなトピックを扱った最新の研究についての発表と意見交換を行う場です。このシンポジウムは、日本をはじめとするアジアの文化や社会と深い関係のある研究を集め、アジアの国ならではの問題観や解決法を、国際会議という場でより広い聴衆に向けて共有することを目指しています。また、このシンポジウムは、若手研究者同士の交流を促進することも目的としています。とくに、<span class="about-highlight">博士号を取得したばかりの人、博士課程を履修中の人、またHCIに興味の強い学生（学部生も！）</span>の投稿を歓迎します。
     </p>
-    <a class="cta-btn" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</a>
+    <div class="cta-btn disabled" href="https://asianchi20.hotcrp.com/" target="_blank">Make a Submission</div>
     <h2>募集テーマ</h2>
     <div class="abstract-overview">
         <p>

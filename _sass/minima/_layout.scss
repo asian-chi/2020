@@ -760,6 +760,15 @@ h4.section-header {
   }
 }
 
+.disabled {
+  background-color: gray;
+
+  &:hover {
+    background-color: lighten(gray, 5%);
+    color: white;
+  }
+}
+
 .with-figure {
   display: flex;
   flex-flow: row wrap;
