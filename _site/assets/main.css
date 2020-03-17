@@ -794,3 +794,11 @@ h4.section-header {
   border-radius: 5%;
   color: white;
   background-color: #00A669; }
+
+.announcement {
+  background-color: #cd1f0f;
+  padding: 10px;
+  color: white; }
+  .announcement a {
+    color: #0fbdcd;
+    text-decoration: underline; }

@@ -11,6 +11,9 @@ layout: main
         <div class="copyright">Photo by <a href="https://unsplash.com/@jarvisphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Braden Jarvis</a> on <a href="https://unsplash.com">Unsplash</a>
         </div>
     </div>
+    <p class="abstract-overview announcement">
+        The CHI 2020 organizers, SIGCHI and ACM have recently <a href="https://chi2020.acm.org/blog/chi-2020-and-covid-19-coronavirus/" target="_blank">decided to not hold the conference in Hawai’i anymore</a>. This is to support global efforts in slowing down the spread of COVID-19 which is now a pandemic. Unfortunately, this also means that the Asian CHI Symposium will also not be held physically. We are now exploring a virtual symposium but with a shortened program and different presentation format. Authors of <a href="/2020/program#accepted-submissions" target="_blank">accepted submissions</a> will be contacted soon for further details.
+    </p>
     <p class="abstract-overview">
         The Asian CHI Symposium showcases the latest HCI work from <span class="about-highlight">Asia, the Asian diaspora and those focusing on incorporating Asian sociocultural factors in their design and implementation</span>. Aside from circulating ideas, identifying emerging research problems and envisioning future directions in human-computer interaction research, this symposium aims to foster social ties among academics (researchers and students) and practitioners and continuously grow a research community in Asia.
     </p>

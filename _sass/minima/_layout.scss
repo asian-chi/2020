@@ -863,3 +863,14 @@ h4.section-header {
   color: white;
   background-color: $asia-green-color;
 }
+
+.announcement {
+  background-color: rgba(205, 31, 15, 1);
+  padding: 10px;
+  color: white;
+
+  a {
+    color: #0fbdcd;
+    text-decoration: underline;
+  }
+}
