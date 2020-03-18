@@ -9,8 +9,8 @@ permalink: /program/
     <div class="abstract-overview">
         <ul class="sidebar-items program">
             <li>Date: April 25, 2020 (Saturday)</li>
-            <li>Time: 09:00 - 17:00</li>
-            <li>Venue: Hawai'i Convention Center, Honolulu, Hawai'i, USA</li>
+            <li>Time: TBD</li>
+            <li>Venue: TBD</li>
         </ul>
     </div>
     <h2>Schedule</h2>
