@@ -9,8 +9,8 @@ permalink: /program/
     <div class="abstract-overview">
         <ul class="sidebar-items program">
             <li>Date: April 25, 2020 (Saturday)</li>
-            <li>Time: TBD</li>
-            <li>Venue: TBD</li>
+            <li>Time: 12:00 - 18:00 JST</li>
+            <li>Venue: Zoom</li>
         </ul>
     </div>
     <h2>Schedule</h2>
@@ -59,17 +59,20 @@ permalink: /program/
     {% if site.data.accepted.size > 0 %}
     <ul class="sidebar-items program">
         {% for item in site.data.accepted %}
+            <h3>{{ item.session }}</h3>
+            {% for paper in item.papers %}
             <li class="accepted-submission">
-                <div class="accepted-id">#{{ item.num }}</div>
+                <div class="accepted-id">#{{ paper.id }}</div>
                 <div class="accepted-details">
-                    {% if item.type %}
-                    <span class="accepted-type">{{ item.type }}</span>
+                    {% if paper.type %}
+                    <span class="accepted-type">{{ paper.type }}</span>
                     {% endif %}
-                    <span class="accepted-title">{{ item.title }}</span>
-                    <p class="accepted-authors">{{ item.authors }}</p>
-                    <p class="accepted-abstract">{{ item.abstract }}</p>
+                    <span class="accepted-title">{{ paper.title }}</span>
+                    <p class="accepted-authors">{{ paper.authors }}</p>
+                    <p class="accepted-abstract">{{ paper.abstract }}</p>
                 </div>
             </li>
+            {% endfor %}
         {% endfor %}
     </ul>
     {% endif %}

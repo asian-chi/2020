@@ -1,45 +1,39 @@
-- time: "08:30 - 09:00"
-  activity: Registration. Participants find their assigned tables.
-  note: Participants must ask for their assigned seats by approaching the SVs or any organizer.
-- time: "09:00 - 09:15"
-  activity: Opening Remarks
-- time: "09:15 - 09:45"
-  activity: Ice Breaker
-- time: "09:45 - 10:30"
+- time: "11:40 - 12:00"
+  activity: Virtual Registration. Participants join on Skype/Zoom. Re-read instructions.
+  note: Participants must be well informed of their schedule, and follow the instruction prepared by the organizers.
+- time: "12:00 - 12:15"
+  activity: Opening Remarks & Household Rules
+- time: "12:15 - 13:00"
   activity: "Keynote #1:" 
   speaker: "Shengdong \"Shen\" Zhao"
   affiliation: "National University of Singapore"
   link: "#shen"
   website: http://www.shengdongzhao.com/
-- time: "10:30 - 10:45"
-  activity: Coffee break & preparation for Poster Session 1
-- time: "10:45 - 12:15"
-  activity: Poster Session 1
+- time: "13:00 - 13:10"
+  activity: Group screenshots & Explain online voting for original submissions
+- time: "13:10 - 14:20"
+  activity: Parallel Session 1
   groups:
-  - time: "10:45 - 11:30"
-    activity: Group A
-  - time: "11:30 - 12:15"
-    activity: Group B
-- time: "12:15 - 13:30"
-  activity: Lunch & preparation for Poster Session 2
-- time: "13:30 - 15:00"
-  activity: Poster Session 2
+  - time: "13:10 - 14:20"
+    activity: Group A - Interaction Techniques
+  - time: "13:10 - 14:20"
+    activity: Group B - Localized Studies
+- time: "14:20 - 14:30"
+  activity: Virtual coffee break & Preparation for Parallel Session 2
+- time: "14:30 - 15:40"
+  activity: Parallel Session 2
   groups:
-  - time: "13:30 - 14:15"
-    activity: Group C
-  - time: "14:15 - 15:00"
-    activity: Group D
-- time: "15:00 - 15:45"
-  activity: "Keynote #2:"
-  speaker: Gierad Laput
-  affiliation: Apple
-  link: "#gierad"
-  website: http://www.gierad.com/
-- time: "15:45 - 16:00"
-  activity: Coffee break & preparation for Poster Session 3
-- time: "16:00 - 16:45"
-  activity: Poster Session 3
-- time: "16:45 - 17:00"
-  activity: TBD
-- time: "17:00 - 17:15"
+  - time: "14:30 - 15:40"
+    activity: Group C - Health and Self-Improvement
+  - time: "14:30 - 15:40"
+    activity: Group D - Communities and Societies
+- time: "15:40 - 15:50"
+  activity: CHI 2020 montage break & Preparation for Parallel Session 3
+- time: "15:50 - 17:10"
+  activity: Session 3 - Showcase
+- time: "17:10 - 17:20"
+  activity: Past Asian CHI montage
+- time: "17:20 - 17:35"
+  activity: Online Voting Result Announcements
+- time: "17:35 - 17:50"
   activity: Closing Remarks

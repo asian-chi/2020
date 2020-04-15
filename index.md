@@ -68,4 +68,6 @@ layout: main
     {% for item in site.data.sponsors %}
         <img class="sponsor" src="{{ item.img }}"/>
     {% endfor %}
+    <h2>Proceedings</h2>
+    <img class="publisher" src="assets/jpg/ACM_ICPS_v.2B.jpg"/>
 </div>
