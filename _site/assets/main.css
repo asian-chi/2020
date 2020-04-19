@@ -786,14 +786,17 @@ h4.section-header {
   display: flex;
   flex-flow: row nowrap; }
 
-.accepted-id {
-  width: 5%;
+.accepted-time {
+  width: 15%;
   margin-right: 10px;
   text-align: right;
   font-weight: bold; }
 
 .accepted-details {
-  width: 90%; }
+  width: 80%; }
+
+.accepted-detail {
+  display: block; }
 
 .accepted-title {
   font-weight: bold;
@@ -804,6 +807,9 @@ h4.section-header {
   border-radius: 5%;
   color: white;
   background-color: #00A669; }
+
+.accepted-abstract {
+  margin-top: 10px; }
 
 .announcement {
   background-color: #cd1f0f;

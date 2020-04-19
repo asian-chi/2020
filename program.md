@@ -62,14 +62,16 @@ permalink: /program/
             <h3>{{ item.session }}</h3>
             {% for paper in item.papers %}
             <li class="accepted-submission">
-                <div class="accepted-id">#{{ paper.id }}</div>
+                <div class="accepted-time">{{ paper.time }}</div>
                 <div class="accepted-details">
-                    {% if paper.type %}
-                    <span class="accepted-type">{{ paper.type }}</span>
-                    {% endif %}
-                    <span class="accepted-title">{{ paper.title }}</span>
-                    <p class="accepted-authors">{{ paper.authors }}</p>
-                    <p class="accepted-abstract">{{ paper.abstract }}</p>
+                    <span class="accepted-detail accepted-title">#{{ paper.id }} | {{ paper.title }}</span>
+                    <span class="accepted-detail accepted-authors">{{ paper.authors }}</span>
+                    <p class="accepted-abstract">
+                        {% if paper.type %}
+                        <span class="accepted-type">{{ paper.type }}</span>
+                        {% endif %}
+                        {{ paper.abstract }}
+                    </p>
                 </div>
             </li>
             {% endfor %}
