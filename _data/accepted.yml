@@ -49,7 +49,7 @@
     num: 10
     title: Design of Alert App and related Device for Hearing Impaired Users in India and Afghanistan
     abstract: "Sounds are important pressure waves which keep us informed about the events around us. Most of these sounds such as the ringing of the phone, crying of a baby, doorbell, fire alarm, etc. are vital for us in the day to day life. People with hearing impairment have difficulties in recognition of these sounds. This paper discusses a paper prototype design of Alert Device and Smartphone Application for hearing impaired users. The prototype design of both Alert Device and Smartphone Applicaion is designed based on a detailed literature survey as well as peer Android application review. The prototype device design includes several important features such as detection of doorbell, crying of a baby, fire alarm, motion detection alarm, phone ringing, self-training of sound, SOS/Panic button, and sound log. This device provides alert information on the smartphone, tablet, and smartwatch. In the future, this alert information can also be provided on TV, lamps, flashing lights and other devices."
-    authors: "Ganesh (Bhutkar)"
+    authors: "Ganesh Bhutkar, Sumit Jadhav and Priyank Kularia (Vishwakarma Institute of Technology); Mohammad Nasim (Bakhtar University of Kabul)"
     type: Original Work
   - id: 45
     num: 11
