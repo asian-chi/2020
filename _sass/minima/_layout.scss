@@ -70,6 +70,7 @@
 .site-nav {
   letter-spacing: 1.5px;
   text-transform: uppercase;
+  z-index: 5;
 
   .nav-trigger {
     display: none;
@@ -809,6 +810,7 @@ h4.section-header {
 
 .group {
   margin-top: 5px;
+  margin-left: 115px;
 
   li {
     margin-bottom: 5px;

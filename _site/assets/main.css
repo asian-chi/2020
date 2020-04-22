@@ -224,7 +224,8 @@ table {
 
 .site-nav {
   letter-spacing: 1.5px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  z-index: 5; }
   .site-nav .nav-trigger {
     display: none; }
   .site-nav .menu-icon {
@@ -755,7 +756,8 @@ h4.section-header {
     font-weight: bold; }
 
 .group {
-  margin-top: 5px; }
+  margin-top: 5px;
+  margin-left: 115px; }
   .group li {
     margin-bottom: 5px; }
 

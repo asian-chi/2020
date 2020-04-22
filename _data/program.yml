@@ -16,8 +16,10 @@
   groups:
   - time: "13:10 - 14:20"
     activity: Group A - Interaction Techniques
+    link: grpA
   - time: "13:10 - 14:20"
     activity: Group B - Localized Studies
+    link: grpB
 - time: "14:20 - 14:30"
   activity: Virtual coffee break & Preparation for Parallel Session 2
 - time: "14:30 - 15:40"
@@ -25,12 +27,15 @@
   groups:
   - time: "14:30 - 15:40"
     activity: Group C - Health and Self-Improvement
+    link: grpC
   - time: "14:30 - 15:40"
     activity: Group D - Communities and Societies
+    link: grpD
 - time: "15:40 - 15:50"
   activity: CHI 2020 montage break & Preparation for Parallel Session 3
 - time: "15:50 - 17:10"
   activity: Session 3 - Showcase
+  link: session3
 - time: "17:10 - 17:20"
   activity: Past Asian CHI montage
 - time: "17:20 - 17:35"
