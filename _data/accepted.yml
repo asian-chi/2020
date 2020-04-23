@@ -115,7 +115,7 @@
     type: Original Work
   - id: 13
     num: 4
-    title: "Design Thinking for Developing a Case-based Reasoning Emotional Robot: In the Context of Interactive Interview"
+    title: "Design Thinking for Developing a Case-based Reasoning Emotion-Sensing Robot for Interactive Interview"
     abstract: "As the application of design and technology has become more interdisciplinary and integrated, the development of interactive service robots (ISRs), which are designed according to unique situational requirements, has emerged as a popular trend. Research has shown that if affective computing technologies and machine learning mechanisms can be introduced to enhance interaction and feedback between ISRs and users, ISRs may be better aligned with both the service scenarios and the future development of innovative services. Based on an interdisciplinary integration framework, this study combined the concept and methodologies  of design thinking, emotion detection technologies, and case-based reasoning (CBR), based on the  use case  of a simulated interview for empirical research, and developed a prototype emotion-sensing robot (ESR) system for the planning and testing of emotion sensing. Three emotion detection and analysis indicators, namely, happiness index of facial expressions, blink rate, and semantic emotions conveyed by the text on their resume, were proposed as the basis for analyzing emotional perception in this study. The experimental results were then used to analyze the effectiveness of the technologies as well as the value, utility, and affordance of the interactive interview bot  system."
     authors: "Sheng Ming Wang and Wei Min Cheng (Department of Interaction Design, National Taipei University of Technology)"
     time: 14:40 - 14:50
