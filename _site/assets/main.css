@@ -764,18 +764,26 @@ h4.section-header {
 .keynote {
   margin-left: 0px;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around; }
+  flex-flow: row wrap; }
   .keynote li {
     list-style-type: none;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    align-content: flex-start; }
+    flex-flow: row nowrap;
+    align-items: flex-start; }
+    .keynote li div {
+      margin-left: 15px;
+      display: flex;
+      flex-flow: column wrap; }
 
 .keynote-photo {
-  width: 200px;
+  width: 300px;
   margin-bottom: 10px; }
+
+.keynote-affil, .keynote-bg, .keynote-abstract {
+  font-size: 14px; }
+
+.keynote-title {
+  font-size: 21px; }
 
 .sponsor {
   margin-right: 20px; }

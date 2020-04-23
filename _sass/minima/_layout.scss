@@ -823,20 +823,32 @@ h4.section-header {
   margin-left: 0px;
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-around;
 
   li {
     list-style-type: none;
     display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    align-content: flex-start;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+
+    div {
+      margin-left: 15px;
+      display: flex;
+      flex-flow: column wrap;
+    }
   }
 }
 
 .keynote-photo {
-  width: 200px;
+  width: 300px;
   margin-bottom: 10px;
+}
+
+.keynote-affil, .keynote-bg, .keynote-abstract {
+  font-size: $base-font-size;
+}
+
+.keynote-title {
+  font-size: $base-font-size*1.5;
 }
 
 // Sponsors

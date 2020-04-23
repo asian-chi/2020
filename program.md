@@ -50,9 +50,14 @@ permalink: /program/
             {% for item in site.data.keynote %}
                 <li>
                     <img class="keynote-photo" id="{{ item.link }}" src="../{{ item.photo }}"/>
-                    <a class="keynote-speaker" href="{{ item.website }}" target="_blank">{{ item.name }}</a>
-                    {{ item.affiliation }}
+                    <div>
+                        <a class="keynote-speaker" href="{{ item.website }}" target="_blank">{{ item.name }}</a>
+                        <p class="keynote-affil">{{ item.affiliation }}</p>
+                        <p class="keynote-bg">{{ item.background }}</p>
+                    </div>
                 </li>
+                <p class="keynote-title">{{ item.title }}</p>
+                <p class="keynote-abstract">{{ item.abstract }}</p>
             {% endfor %}
         </ul>
     </div>
@@ -61,6 +66,7 @@ permalink: /program/
     <ul class="sidebar-items program">
         {% for item in site.data.accepted %}
             <h3 id="{{ item.link }}">{{ item.session }}</h3>
+            <p class="program-sessionchair">Session Chair: {{ item.chair }}</p>
             {% for paper in item.papers %}
             <li class="accepted-submission">
                 <div class="accepted-time">{{ paper.time }}</div>
