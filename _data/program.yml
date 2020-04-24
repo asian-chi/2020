@@ -1,8 +1,8 @@
 - time: "11:40 - 12:00"
-  activity: Virtual Registration. Participants join on Skype/Zoom. Re-read instructions.
+  activity: Virtual Registration. Participants join on Zoom. Re-read instructions.
   note: Participants must be well informed of their schedule, and follow the instruction prepared by the organizers.
 - time: "12:00 - 12:15"
-  activity: Opening Remarks & Household Rules
+  activity: Opening Remarks & Housekeeping Rules. Explain online voting for Best Presenter
 - time: "12:15 - 13:00"
   activity: "Keynote #1:" 
   speaker: "Shengdong \"Shen\" Zhao"
@@ -10,7 +10,7 @@
   link: "#shen"
   website: http://www.shengdongzhao.com/
 - time: "13:00 - 13:10"
-  activity: Group screenshots & Explain online voting for original submissions
+  activity: Group screenshots & Preparation for Parallel Session 1
 - time: "13:10 - 14:20"
   activity: Parallel Session 1
   groups:
